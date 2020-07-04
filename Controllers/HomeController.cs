@@ -29,5 +29,11 @@ namespace PartyInvites.Controllers
 
             return View("Thanks", guestResponse);
         }
+
+        public ViewResult ListResponses()
+        {
+            var data = Repository.Responses.Where(t => t.WillAttend.HasValue && t.WillAttend.Value == true);
+            return View(data);
+        }
     }
 }

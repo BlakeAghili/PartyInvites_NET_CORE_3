@@ -1,0 +1,31 @@
+﻿@model IEnumerable<PartyInvites.Models.GuestResponse>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Guest List</title>
+</head>
+<body>
+<h2>Here is the list of people that are coming:</h2>
+<table>
+    <thead>
+    <tr><th>Name</th><th>Email</th><th>Phone</th></tr>
+    </thead>
+    <tbody>
+        @foreach (var person in Model)
+        {
+        <tr>
+            <td>@person.Name</td>
+            <td>@person.Email</td>
+            <td>@person.Phone</td>
+        </tr>
+        }
+    </tbody>
+</table>
+</body>
+</html>
