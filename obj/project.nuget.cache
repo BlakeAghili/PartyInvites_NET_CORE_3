@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fRr8u8cRpDwYEgP365aSqhHHn/9y5e6p5G26/7P6wg/KjGqpjc/osANjuM6rHe8o9r3XcCmgwUcVqMs+DXw0NA==",
+  "dgSpecHash": "QZL0c87X4J1+M5lceUzjZHmYlhl5nVKlv9JdDTaqqGd0hxtagqmj0533h+EfCQYEEj/H/f49wNVvyaz5ptIuiQ==",
   "success": true,
-  "projectFilePath": "C:\\MyOwnGitHub\\PartyInvites\\PartyInvites.csproj",
+  "projectFilePath": "C:\\MyOwnGitHub\\PartyInvites_NET_CORE_3\\PartyInvites.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

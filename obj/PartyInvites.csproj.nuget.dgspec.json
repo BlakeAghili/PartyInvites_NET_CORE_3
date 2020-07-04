@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MyOwnGitHub\\PartyInvites\\PartyInvites.csproj": {}
+    "C:\\MyOwnGitHub\\PartyInvites_NET_CORE_3\\PartyInvites.csproj": {}
   },
   "projects": {
-    "C:\\MyOwnGitHub\\PartyInvites\\PartyInvites.csproj": {
+    "C:\\MyOwnGitHub\\PartyInvites_NET_CORE_3\\PartyInvites.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyOwnGitHub\\PartyInvites\\PartyInvites.csproj",
+        "projectUniqueName": "C:\\MyOwnGitHub\\PartyInvites_NET_CORE_3\\PartyInvites.csproj",
         "projectName": "PartyInvites",
-        "projectPath": "C:\\MyOwnGitHub\\PartyInvites\\PartyInvites.csproj",
+        "projectPath": "C:\\MyOwnGitHub\\PartyInvites_NET_CORE_3\\PartyInvites.csproj",
         "packagesPath": "C:\\Users\\baghili\\.nuget\\packages\\",
-        "outputPath": "C:\\MyOwnGitHub\\PartyInvites\\obj\\",
+        "outputPath": "C:\\MyOwnGitHub\\PartyInvites_NET_CORE_3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
