@@ -8,8 +8,9 @@
 <html>
 <head>
     <title>Thank You</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 </head>
-<body>
+<body class="text-center">
 <div>
     <h1>Thank you @Model.Name!</h1>
     @if (Model.WillAttend.HasValue && Model.WillAttend.Value)

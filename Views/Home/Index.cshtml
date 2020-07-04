@@ -6,13 +6,15 @@
 <html>
 <head>
     <title>Party!</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 </head>
 <body>
 <div>
-    <div>
+    <div class="text-center">
         We are going to have an exciting party.
+        <h4>You should come.</h4>
     </div>
-    <a asp-action="RsvpForm">RSVP Now</a>
+    <a class="btn btn-primary" asp-action="RsvpForm">RSVP Now</a>
 </div>
 </body>
 </html>
