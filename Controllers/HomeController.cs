@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using PartyInvites.Models;
-using PartyInvites.Models;
 
 namespace PartyInvites.Controllers
 {
@@ -26,8 +25,9 @@ namespace PartyInvites.Controllers
         [HttpPost]
         public ViewResult RsvpForm(GuestResponse guestResponse)
         {
-            // todo: Do something with this data. Save it or something.
-            return View();
+            Repository.AddResponse(guestResponse);
+
+            return View("Thanks", guestResponse);
         }
     }
 }

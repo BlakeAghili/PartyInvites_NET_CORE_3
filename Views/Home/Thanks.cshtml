@@ -1,0 +1,28 @@
+﻿@model GuestResponse
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thank You</title>
+</head>
+<body>
+<div>
+    <h1>Thank you @Model.Name!</h1>
+    @if (Model.WillAttend.HasValue && Model.WillAttend.Value)
+    {
+        @: It's great that you are coming. The drinks are in the fridge.
+    }
+    else
+    {
+        @: Sorry, hopefully next time. 
+    }
+</div>
+
+Click <a asp-action="ListResponses">here</a> to see who is coming.
+</body>
+</html>
+
