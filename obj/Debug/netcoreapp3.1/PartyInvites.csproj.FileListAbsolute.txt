@@ -77,3 +77,4 @@ C:\MyOwnGitHub\PartyInvites_NET_CORE_3\obj\Debug\netcoreapp3.1\PartyInvites.pdb
 C:\MyOwnGitHub\PartyInvites_NET_CORE_3\obj\Debug\netcoreapp3.1\PartyInvites.genruntimeconfig.cache
 C:\MyOwnGitHub\PartyInvites_NET_CORE_3\obj\Debug\netcoreapp3.1\PartyInvites.csproj.CopyComplete
 C:\MyOwnGitHub\PartyInvites_NET_CORE_3\obj\Debug\netcoreapp3.1\Razor\Views\Home\Thanks.cshtml.g.cs
+C:\MyOwnGitHub\PartyInvites_NET_CORE_3\obj\Debug\netcoreapp3.1\Razor\Views\Home\ListResponses.cshtml.g.cs

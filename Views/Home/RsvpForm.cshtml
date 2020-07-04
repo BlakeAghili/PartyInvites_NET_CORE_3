@@ -12,21 +12,22 @@
 <body>
 <div>
     <form asp-action="RsvpForm" method="post">
+        <div asp-validation-summary="All"></div>
         <div>
             <label asp-for="Name">Your Name:</label>
             <input asp-for="Name"/>
         </div>
-        
+
         <div>
             <label asp-for="Email">Your Email:</label>
             <input asp-for="Email"/>
         </div>
-        
+
         <div>
             <label asp-for="Phone">Your Phone</label>
-            <input asp-for="Phone" />
+            <input asp-for="Phone"/>
         </div>
-        
+
         <div>
             <label asp-for="WillAttend">Will You Join Us?</label>
             <select asp-for="WillAttend">
@@ -35,7 +36,7 @@
                 <option value="false">No, I cannot come.</option>
             </select>
         </div>
-        
+
         <button type="submit">Submit RSVP</button>
     </form>
 </div>
